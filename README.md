@@ -46,5 +46,8 @@ Note: If you have just one GPU, please delete the block of `RTFNet_GPU_1` and `-
 9. in PyCharm, file->settings->project:RTFNet->Project Interpreter, click the settings which is circled in red:
 [![](https://github.com/yuxiangsun/PyCharm_Docker_Tutorial/blob/master/setting.png)](https://github.com/yuxiangsun/PyCharm_Docker_Tutorial/blob/master/setting.png)
 10. Choose Docker Compose, click the folder icon in the `Configuration File(s)`:
+[![](https://github.com/yuxiangsun/PyCharm_Docker_Tutorial/blob/master/docker_compose.png)](https://github.com/yuxiangsun/PyCharm_Docker_Tutorial/blob/master/docker_compose.png)
+[![](https://github.com/yuxiangsun/PyCharm_Docker_Tutorial/blob/master/add_docker_compose_file.png)](https://github.com/yuxiangsun/PyCharm_Docker_Tutorial/blob/master/add_docker_compose_file.png)
+11. click the `+` icon to load the `docker-compose.yml`:
+[![](https://github.com/yuxiangsun/PyCharm_Docker_Tutorial/blob/master/finish.png)](https://github.com/yuxiangsun/PyCharm_Docker_Tutorial/blob/master/finish.png)
 
-11. click the `+` icon to load the `docker-compose.yml`.
