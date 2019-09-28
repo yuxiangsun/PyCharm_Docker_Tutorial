@@ -41,5 +41,7 @@ services:
       - /dev/nvidia1 
 ```
 Note: If you have just one GPU, please delete the block of `RTFNet_GPU_1` and `- /dev/nvidia1` in the device description. If you have more than two GPUs, please add blocks of `RTFNet_GPU_2`, `RTFNet_GPU_3`, etc, and modify the `devices` accordingly. The `volumes` is used to map the folder in your host machine to a folder in your docker. Please modify it according to your need. Here, we use it to map the dataset folder, which is placed in `/home/yourname/datasets/` of the host machine.
+
 8. lauch PyCharm, File->Open, open RTFNet as a project.
+
 9. in PyCharm, file->settings->intepreter, load the `docker-compose.yml` in PyCharm.
